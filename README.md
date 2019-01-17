@@ -15,10 +15,12 @@ Usage
 Add dependency
   use CooperAV\SmsAero\SmsAero;
   
-Send message  
+Send message
+
+        // Create SmsAero instance.
+        $oSMSAero = new SmsAero('login','api_key');        
         // We can use it with config file f.e
         // config('smsaero.login') and config('smsaero.api_key')
-        $oSMSAero = new SmsAero('login','api_key');
         
         // Set receiver's phone number.
         $phone_number = '111111111';
