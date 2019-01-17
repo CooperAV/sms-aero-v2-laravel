@@ -6,9 +6,6 @@ use CooperAV\SmsAero;
 
 class SmsAeroServiceProvider extends ServiceProvider {
   public function boot(){
-  	 $this->publishes(array(
-            __DIR__.'/config/smsaero.php' => config_path('smsaero.php')
-        ));
   }
   public function register()
   {
