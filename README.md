@@ -1,16 +1,16 @@
 # SmsAero-v2-laravel
 SMS Aero for laravel API version 2.
 
-Installation
+<h1>Installation</h1>
 
-  Step #1
-    composer require cooperav/sms-aero-v2-laravel
+  <h2>Step #1</h2>
+    &emsp;composer require cooperav/sms-aero-v2-laravelL
 
-  Step #2
-    Read the documentation
-      https://smsaero.ru/description/api/
+  <h2>Step #2</h2>
+    &emsp;Read the documentation
+      &emsp;https://smsaero.ru/description/api/
     
-Usage
+<h1>Usage</h1>
 
 Add dependency
   use CooperAV\SmsAero\SmsAero;
