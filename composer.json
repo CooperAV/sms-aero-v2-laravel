@@ -1,5 +1,5 @@
 {
-    "name": "CooperAV/SmsAero-v2-laravel",
+    "name": "cooperav/sms-aero-v2-laravel",
     "description": "Package for using service messages in Laravel-5",
      "type": "library",
      "keywords": [
