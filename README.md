@@ -13,13 +13,13 @@ SMS Aero for laravel API version 2.
 <h1>Usage</h1>
 
 Add dependency
-  use CooperAV\SmsAero\SmsAero;
+  &emsp;use CooperAV\SmsAero\SmsAero;
   
-Send message
+<h3>Send message</h3>
 
         // Create SmsAero instance.
         $oSMSAero = new SmsAero('login','api_key');        
-        // We can use it with config file f.e
+        // We can use it with config file f.e.
         // config('smsaero.login') and config('smsaero.api_key')
         
         // Set receiver's phone number.
