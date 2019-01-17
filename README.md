@@ -12,7 +12,7 @@ SMS Aero for laravel API version 2.
     
 <h1>Usage</h1>
 
-Add dependency
+<h3>Add dependency</h3>
   &emsp;use CooperAV\SmsAero\SmsAero;
   
 <h3>Send message</h3>
