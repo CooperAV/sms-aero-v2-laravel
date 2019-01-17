@@ -1,0 +1,28 @@
+{
+    "name": "CooperAV/SmsAero-v2-laravel",
+    "description": "Package for using service messages in Laravel-5",
+     "type": "library",
+     "keywords": [
+        "laravel",
+        "sms-aero"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander",
+            "email": "cooperav@ukr.net",
+            "homepage": "https://github.com/CooperAV/SmsAero-v2-laravel",
+            "role": "Developer"
+        }
+    ],
+     "minimum-stability": "stable",
+     "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CooperAV\\SmsAero\\": "src"
+        }
+    },
+	"version": "1.0.0"
+}
